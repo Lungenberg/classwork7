@@ -63,7 +63,9 @@ class Student():
         else:
             print("Нет возможности поступить на мастерат")
 
-Vadim = Student(12345, "Vadim",4, 7)
+s1 = Student(1,"Vasea", 3, 6.33)
 
-Vadim.Sum(8,5,9)
+s1.Info()
+s1.Sum(7,9,10)
+s1.Master(s1.Suma(5,7,2))
 
